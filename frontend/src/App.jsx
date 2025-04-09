@@ -13,10 +13,6 @@ function App() {
 
   return (
     <>
-<<<<<<< HEAD
-      <h1>Ola</h1>
-=======
->>>>>>> 495c04dcd4e7e3cecf14abefabe1e42c674864b3
      <Router>
       <Routes>
         <Route path="/" element={<Home/>}/>
