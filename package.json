@@ -2,10 +2,15 @@
   "name": "new-trabalho",
   "version": "1.0.0",
   "main": "index.js",
+<<<<<<< HEAD
   "type": "module",
   "scripts": {
     "test": "react-scripts test",
     "start": "webpack serve --config frontend/webpack.config.js --open"
+=======
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> 495c04dcd4e7e3cecf14abefabe1e42c674864b3
   },
   "keywords": [],
   "author": "",
@@ -14,6 +19,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+<<<<<<< HEAD
     "firebase": "^11.6.0",
     "firebase-admin": "^13.2.0",
     "https-browserify": "^1.0.0",
@@ -38,6 +44,18 @@
     "webpack": "^5.98.0",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.1"
+=======
+    "firebase": "^11.5.0",
+    "firebase-admin": "^13.2.0",
+    "mysql2": "^3.13.0",
+    "react-router-dom": "^7.4.0",
+    "sequelize": "^6.37.6"
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.3.3",
+    "node-polyfill-webpack-plugin": "^4.1.0",
+    "sequelize-cli": "^6.6.2"
+>>>>>>> 495c04dcd4e7e3cecf14abefabe1e42c674864b3
   },
   "description": ""
 }
